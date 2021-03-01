@@ -13,7 +13,3 @@ while read a; do
 done < eula.txt > eula.txt.t
 mv eula.txt{.t,}
 screen -S "Minecraft server"
-echo "Enter the Ram amount in G: "  
-read ramAmount
-serverCommand="java -Xmx${ramAmount}G -Xms${ramAmount}G -jar minecraft_server.1.16.5.jar nogui"
-$serverCommand
