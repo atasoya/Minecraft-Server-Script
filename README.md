@@ -19,7 +19,7 @@ to clone repository
 run 
 
 ```
-chmod +x mcserverinit.sh
+chmod +x main.sh
 ```
 to make bash file executable  
 
@@ -28,7 +28,7 @@ to make bash file executable
 finally run 
 
 ```
-sudo ./mcserverinit.sh
+sudo ./main.sh
 ```
 to run script
 
