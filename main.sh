@@ -5,7 +5,7 @@ sudo apt install default-jdk
 sudo apt install screen
 mkdir minecraft
 cd minecraft
-wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+wget https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
 mv server.jar minecraft_server.1.16.5.jar
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.16.5.jar nogui
 while read a; do
